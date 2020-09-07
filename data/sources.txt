@@ -1,0 +1,5 @@
+nba-rookie-stats.csv -> https://query.data.world/s/bn5exw7pr6tigm2qom7ccmd5oyhpbu
+nba-combine-2012.csv -> https://query.data.world/s/sbdlzenbdv2knhsw6fk6dbk6wplacq
+nba-combine-2013.csv -> https://query.data.world/s/wwto3jq5oo4lotybwofegohgymeptn
+nba-combine-2014.csv -> https://query.data.world/s/quncvglzbj4n3qzl2tltghhm4czxhh
+nba-combine-2015.csv -> https://query.data.world/s/d3pld4mlrivwnwsr26qgupvymncyng

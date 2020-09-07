@@ -2,10 +2,10 @@ prefix=/home/jacekline/dev/eecs-731/project1/conda-env
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 toolexeclibdir=${libdir}
-includedir=/home/jacekline/dev/eecs-731/project1/conda-env/include
+includedir=${prefix}/include
 
 Name: libffi
 Description: Library supporting Foreign Function Interfaces
-Version: 3.3
+Version: 3.2.1
 Libs: -L${toolexeclibdir} -lffi
 Cflags: -I${includedir}

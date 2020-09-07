@@ -28,10 +28,10 @@ MODLIBS=           $(LOCALMODLIBS) $(BASEMODLIBS)
 
 # === Variables set by configure
 VERSION=	3.8
-srcdir=		/tmp/build/80754af9/python_1596615979580/work
-VPATH=		/tmp/build/80754af9/python_1596615979580/work
-abs_srcdir=	/tmp/build/80754af9/python_1596615979580/work
-abs_builddir=	/tmp/build/80754af9/python_1596615979580/work/build-static
+srcdir=		/tmp/build/80754af9/python_1585235154784/work
+VPATH=		/tmp/build/80754af9/python_1585235154784/work
+abs_srcdir=	/tmp/build/80754af9/python_1585235154784/work
+abs_builddir=	/tmp/build/80754af9/python_1585235154784/work/build-static
 
 
 CC=		x86_64-conda_cos6-linux-gnu-gcc -pthread
@@ -81,7 +81,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -fwrapv -O2 -Wall
 BASECFLAGS=	 -Wno-unused-result -Wsign-compare
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jacekline/dev/eecs-731/project1/conda-env/include -fdebug-prefix-map=/tmp/build/80754af9/python_1596615979580/work=/usr/local/src/conda/python-3.8.5 -fdebug-prefix-map=/home/jacekline/dev/eecs-731/project1/conda-env=/usr/local/src/conda-prefix    
+CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jacekline/dev/eecs-731/project1/conda-env/include -fdebug-prefix-map=/tmp/build/80754af9/python_1585235154784/work=/usr/local/src/conda/python-3.8.2 -fdebug-prefix-map=/home/jacekline/dev/eecs-731/project1/conda-env=/usr/local/src/conda-prefix    
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -204,7 +204,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/home/jacekline/dev/eecs-731/project1/conda-env' '--build=x86_64-conda_cos6-linux-gnu' '--host=x86_64-conda_cos6-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/home/jacekline/dev/eecs-731/project1/conda-env/include' '--with-tcltk-libs=-L/home/jacekline/dev/eecs-731/project1/conda-env/lib -ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' '-oldincludedir=/tmp/build/80754af9/python_1596615979580/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-conda_cos6-linux-gnu' 'host_alias=x86_64-conda_cos6-linux-gnu' 'CC=x86_64-conda_cos6-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jacekline/dev/eecs-731/project1/conda-env/include -fdebug-prefix-map=/tmp/build/80754af9/python_1596615979580/work=/usr/local/src/conda/python-3.8.5 -fdebug-prefix-map=/home/jacekline/dev/eecs-731/project1/conda-env=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/jacekline/dev/eecs-731/project1/conda-env/lib -Wl,-rpath-link,/home/jacekline/dev/eecs-731/project1/conda-env/lib -L/home/jacekline/dev/eecs-731/project1/conda-env/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/jacekline/dev/eecs-731/project1/conda-env/include -I/home/jacekline/dev/eecs-731/project1/conda-env/include' 'CPP=/tmp/build/80754af9/python_1596615979580/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp' 'PKG_CONFIG_PATH=/home/jacekline/dev/eecs-731/project1/conda-env/lib/pkgconfig'
+CONFIG_ARGS=	 '--prefix=/home/jacekline/dev/eecs-731/project1/conda-env' '--build=x86_64-conda_cos6-linux-gnu' '--host=x86_64-conda_cos6-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/home/jacekline/dev/eecs-731/project1/conda-env/include' '--with-tcltk-libs=-L/home/jacekline/dev/eecs-731/project1/conda-env/lib -ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' '-oldincludedir=/tmp/build/80754af9/python_1585235154784/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo-extended' 'build_alias=x86_64-conda_cos6-linux-gnu' 'host_alias=x86_64-conda_cos6-linux-gnu' 'CC=x86_64-conda_cos6-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jacekline/dev/eecs-731/project1/conda-env/include -fdebug-prefix-map=/tmp/build/80754af9/python_1585235154784/work=/usr/local/src/conda/python-3.8.2 -fdebug-prefix-map=/home/jacekline/dev/eecs-731/project1/conda-env=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/jacekline/dev/eecs-731/project1/conda-env/lib -Wl,-rpath-link,/home/jacekline/dev/eecs-731/project1/conda-env/lib -L/home/jacekline/dev/eecs-731/project1/conda-env/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/jacekline/dev/eecs-731/project1/conda-env/include -I/home/jacekline/dev/eecs-731/project1/conda-env/include' 'CPP=/tmp/build/80754af9/python_1585235154784/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp' 'PKG_CONFIG_PATH=/home/jacekline/dev/eecs-731/project1/conda-env/lib/pkgconfig'
 
 
 # Subdirectories with code
@@ -260,7 +260,7 @@ TCLTK_LIBS=	-L/home/jacekline/dev/eecs-731/project1/conda-env/lib -ltcl8.6 -ltk8
 # To speed up profile generation, we don't run the full unit test suite
 # by default. The default is "-m test --pgo". To run more tests, use
 # PROFILE_TASK="-m test --pgo-extended"
-PROFILE_TASK=	-m test --pgo
+PROFILE_TASK=	-m test --pgo-extended
 
 # report files for gcov / lcov coverage report
 COVERAGE_INFO=	$(abs_builddir)/coverage.info

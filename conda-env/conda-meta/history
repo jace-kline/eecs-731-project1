@@ -317,3 +317,22 @@
 +defaults/noarch::zict-2.0.0-py_0
 +defaults/noarch::zipp-3.1.0-py_0
 # update specs: ['anaconda']
+==> 2020-09-07 16:27:48 <==
+# cmd: /home/jacekline/installs/anaconda3/bin/conda install -c conda-forge texlive-core
+# conda version: 4.8.4
+-defaults/linux-64::ca-certificates-2020.7.22-0
+-defaults/linux-64::certifi-2020.6.20-py38_0
+-defaults/linux-64::glib-2.63.1-h5a9c865_0
+-defaults/linux-64::openssl-1.1.1g-h7b6447c_0
++conda-forge/linux-64::ca-certificates-2020.6.20-hecda079_0
++conda-forge/linux-64::certifi-2020.6.20-py38h32f6830_0
++conda-forge/linux-64::gettext-0.19.8.1-hc5be6a0_1002
++conda-forge/linux-64::glib-2.65.0-h6f030ca_0
++conda-forge/linux-64::libiconv-1.16-h516909a_0
++conda-forge/linux-64::openjpeg-2.3.1-h981e76c_3
++conda-forge/linux-64::openssl-1.1.1g-h516909a_1
++conda-forge/linux-64::python_abi-3.8-1_cp38
++conda-forge/noarch::poppler-data-0.4.9-1
++defaults/linux-64::poppler-0.81.0-he6a58d2_1
++defaults/linux-64::texlive-core-20180414-hc8d0b01_0
+# update specs: ['texlive-core']

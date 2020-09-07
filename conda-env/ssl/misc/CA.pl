@@ -1,4 +1,4 @@
-#!/home/jacekline/dev/eecs-731/project1/conda-env/bin/perl
+#!/usr/bin/env perl
 # Copyright 2000-2018 The OpenSSL Project Authors. All Rights Reserved.
 #
 # Licensed under the OpenSSL license (the "License").  You may not use

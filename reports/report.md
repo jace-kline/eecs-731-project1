@@ -1023,15 +1023,15 @@ stats_initial
     <tr>
       <th>count</th>
       <td>108.000000</td>
+      <td>104.000000</td>
       <td>108.000000</td>
       <td>108.000000</td>
       <td>108.000000</td>
       <td>108.000000</td>
-      <td>108.000000</td>
-      <td>108.000000</td>
-      <td>108.000000</td>
-      <td>108.000000</td>
-      <td>108.000000</td>
+      <td>90.000000</td>
+      <td>90.000000</td>
+      <td>90.000000</td>
+      <td>90.000000</td>
       <td>...</td>
       <td>108.000000</td>
       <td>108.000000</td>
@@ -1071,15 +1071,15 @@ stats_initial
     <tr>
       <th>std</th>
       <td>1.147597</td>
-      <td>14.919711</td>
+      <td>15.206655</td>
       <td>3.017697</td>
       <td>3.012251</td>
       <td>3.521518</td>
       <td>4.400028</td>
-      <td>2.952923</td>
-      <td>3.544276</td>
-      <td>2.565269</td>
-      <td>3.821307</td>
+      <td>3.237793</td>
+      <td>3.886193</td>
+      <td>2.812742</td>
+      <td>4.189950</td>
       <td>...</td>
       <td>0.896528</td>
       <td>1.151805</td>
@@ -1119,15 +1119,15 @@ stats_initial
     <tr>
       <th>25%</th>
       <td>2012.000000</td>
-      <td>10.750000</td>
+      <td>10.000000</td>
       <td>75.437500</td>
       <td>76.937500</td>
       <td>79.937500</td>
       <td>100.000000</td>
-      <td>35.500000</td>
-      <td>136.500000</td>
-      <td>29.500000</td>
-      <td>131.000000</td>
+      <td>34.500000</td>
+      <td>135.750000</td>
+      <td>29.000000</td>
+      <td>130.000000</td>
       <td>...</td>
       <td>0.500000</td>
       <td>0.800000</td>
@@ -1143,15 +1143,15 @@ stats_initial
     <tr>
       <th>50%</th>
       <td>2013.000000</td>
-      <td>23.500000</td>
+      <td>23.000000</td>
       <td>77.250000</td>
       <td>78.750000</td>
       <td>81.875000</td>
       <td>102.000000</td>
-      <td>36.638889</td>
-      <td>138.644444</td>
-      <td>30.916667</td>
-      <td>132.922222</td>
+      <td>36.500000</td>
+      <td>139.250000</td>
+      <td>31.000000</td>
+      <td>133.000000</td>
       <td>...</td>
       <td>0.900000</td>
       <td>1.150000</td>
@@ -1167,15 +1167,15 @@ stats_initial
     <tr>
       <th>75%</th>
       <td>2014.000000</td>
-      <td>35.250000</td>
+      <td>36.000000</td>
       <td>79.500000</td>
       <td>80.750000</td>
       <td>84.687500</td>
       <td>105.500000</td>
-      <td>38.000000</td>
+      <td>38.875000</td>
       <td>141.500000</td>
-      <td>32.500000</td>
-      <td>135.000000</td>
+      <td>33.000000</td>
+      <td>135.875000</td>
       <td>...</td>
       <td>1.400000</td>
       <td>1.925000</td>
@@ -1572,6 +1572,9 @@ merged_initial.plot(kind='scatter', x='Draft pick', y='PTS')
 plt.title("Rookie Season Points per Game vs Draft Pick")
 plt.xlabel("Draft Pick")
 plt.ylabel("Rookie Season Points per Game")
+
+# Save the plot to the file 'plot.png'
+plt.savefig('../reports/plots/plot.png')
 
 # Show the plot
 plt.show()

@@ -1581,7 +1581,7 @@ plt.show()
 ```
 
 
-![png](draft-rookie-analysis_files/draft-rookie-analysis_15_0.png)
+![png](./plots/plot.png)
 
 
 ### Analysis Ideas
